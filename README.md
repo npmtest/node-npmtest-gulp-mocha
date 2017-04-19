@@ -1,7 +1,10 @@
-# test coverage for  [gulp-mocha (v4.3.0)](https://github.com/sindresorhus/gulp-mocha#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-mocha.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-mocha) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-mocha.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-mocha)
+# npmtest-gulp-mocha
+
+#### test coverage for  [gulp-mocha (v4.3.0)](https://github.com/sindresorhus/gulp-mocha#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-mocha.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-mocha) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-mocha.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-mocha)
+
 #### Run Mocha tests
 
-[![NPM](https://nodei.co/npm/gulp-mocha.png?downloads=true)](https://www.npmjs.com/package/gulp-mocha)
+[![NPM](https://nodei.co/npm/gulp-mocha.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-mocha)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-gulp-mocha/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-mocha/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-mocha/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-mocha/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-mocha/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-mocha/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-gulp-mocha/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-gulp-mocha/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-mocha/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-gulp-mocha/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-gulp-mocha%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-gulp-mocha/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-mocha/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-gulp-mocha/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-mocha/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-gulp-mocha%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-mocha/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-gulp-mocha/build/test-report.html](https://npmtest.github.io/node-npmtest-gulp-mocha/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-gulp-mocha/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-gulp-mocha/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-gulp-mocha/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-mocha/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-mocha/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-mocha/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-gulp-mocha/build/screenCapture.npmPackageListing.svg)
 
@@ -28,7 +37,6 @@
 {
     "author": {
         "name": "Sindre Sorhus",
-        "email": "sindresorhus@gmail.com",
         "url": "sindresorhus.com"
     },
     "bugs": {
@@ -77,17 +85,14 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "sindresorhus",
-            "email": "sindresorhus@gmail.com"
+            "name": "sindresorhus"
         },
         {
-            "name": "kevva",
-            "email": "kevinmartensson@gmail.com"
+            "name": "kevva"
         }
     ],
     "name": "gulp-mocha",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/sindresorhus/gulp-mocha.git"
